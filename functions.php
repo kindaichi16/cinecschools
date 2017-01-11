@@ -213,6 +213,6 @@ add_action( 'load-themes.php', 'cinecschools_add_theme_caps' );
 require 'scripts/theme-update-checker.php';
 $example_update_checker = new ThemeUpdateChecker(
     'cinecschools',
-    'http://example.com/example-theme/info.json'
+    'https://github.com/kindaichi16/cinecschools/blob/master/info.json'
 );
 ?>
