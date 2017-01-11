@@ -208,4 +208,11 @@ function cinecschools_add_theme_caps(){
   }
 }
 add_action( 'load-themes.php', 'cinecschools_add_theme_caps' );
+
+//Initialize the update checker.
+require 'scripts/theme-update-checker.php';
+$example_update_checker = new ThemeUpdateChecker(
+    'cinecschools',
+    'http://example.com/example-theme/info.json'
+);
 ?>
