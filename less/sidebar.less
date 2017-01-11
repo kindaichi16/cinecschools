@@ -1,0 +1,58 @@
+// sidebar.less
+
+/*--------------------------------left sidebar---------------------------------------------*/
+.left-menu { 
+	font-size: @font-size-h4; 
+	a.list-group-item { 
+		border: 0; 
+		border-radius: 0;
+		&:hover { 
+			background-color: @white; 
+			color: @brand-sec; 
+		}
+		.active {
+			&, &:hover, &:focus {
+			background-color: @white; 
+			color: @brand-sec; 
+			}
+		}
+	}
+	
+	.nav > li > a {
+		&, &:hover, &:focus {
+			color: @brand-sec; 
+			border-radius:0;
+		}
+	}
+	.nav-pills > li.active > a{
+		&, &:hover, &:focus {
+			background-color: @brand-sec;
+			color: @white;
+		}
+	}
+}
+
+.left-menu-heading { 
+	background-color: @brand-sec;
+	color: @white; 
+	padding: @font-size-smaller @font-size-base; 
+	font-weight: bold; 
+	margin-bottom:5px;
+}
+
+
+/*---------------------------------------mobile-------------------------------------------*/
+@media (max-width: 360px) {
+}
+
+/*xs*/
+@media (max-width: @screen-xs-max) {
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}

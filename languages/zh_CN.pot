@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: cinec_school_theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mandy Fan <mandy.fan@mrpalace.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Text in echo
+#: index.php:141
+msgid "ANNOUNCEMENTS"
+msgstr ""
+
+#. Text in echo
+#: index.php:26
+msgid "EVENT"
+msgstr "学生天地"
+
+#. Text in echo
+#: index.php:92
+msgid "LATEST NEWS"
+msgstr ""
+
+#. Text in echo
+#: index.php:58
+msgid "NEWSLETTER"
+msgstr ""
+
+#. Text in echo
+#: index.php:179
+msgid "TESTIMONIALS"
+msgstr ""

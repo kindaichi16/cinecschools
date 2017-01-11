@@ -1,0 +1,55 @@
+// mixins.less
+
+// #fscf_captcha_field1 {
+// 	clear: both;
+// }
+
+// #fscf_submit_div1, #fscf_captcha_refresh1, #fscf_captcha_image_div1  {
+// 	padding-left: 5px;
+// 	margin-bottom: 10px;
+// 	@media (max-width: @screen-xs-max) {
+// 		padding-left: 0px;
+// 	}
+// }
+
+// #fscf_captcha_image1 {
+// 	margin-left: 5px;
+// }
+
+// #fscf_required1 {
+// 	margin: 10px 0;
+// }
+
+
+//loop for the 2 contact forms
+.fscf-columns(2);
+
+.fscf-columns(@n, @i: 1) when (@i =< @n) {
+
+	#fscf_captcha_field@{i} {
+		clear: both;
+	}
+
+	#fscf_submit_div@{i}, #fscf_captcha_refresh@{i}, #fscf_captcha_image_div@{i}  {
+		padding-left: 5px;
+		margin-bottom: 10px;
+		@media (max-width: @screen-xs-max) {
+			padding-left: 0px;
+		}
+	}
+
+	#fscf_captcha_image@{i} {
+		margin-left: 5px;
+	}
+
+	#fscf_required@{i} {
+		margin: 10px 0;
+	}
+
+  .fscf-columns(@n, (@i + 1));
+}
+
+
+
+
+

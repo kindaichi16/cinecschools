@@ -1,0 +1,12 @@
+{"vendor":{"plugins/wp-bootstrap-gallery":"1.0"},
+"front-config":{
+"all-pages": {
+	"filters": {
+		"text": {
+			"prev":"20",
+			"next":"20"
+		}
+	}
+}
+}
+}

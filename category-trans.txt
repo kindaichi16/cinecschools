@@ -1,0 +1,29 @@
+[:en]News & Events[:zh]新闻动态
+		news-events	0
+[:en]Announcements[:zh]通知公告[:]
+	— 通知公告
+
+		announcements	2
+[:en]Events[:zh]学生天地[:]
+	— 学生天地
+		events	1
+[:en]News[:zh]新闻动态[:]
+	— 新闻动态
+		news	5
+[:en]Newsletter[:zh]新闻简报[:]
+	新闻简报
+		newsletter	1
+[:en]Staff[:zh]教师简介[:]
+	教师简介
+		staff	0
+[:en]Principal[:zh]校长[:]
+	— 校长
+		principal	1
+[:en]Teacher[:zh]教师[:]
+	— 教师
+		teacher	3
+[:en]Vice-Principal[:zh]副校长[:]
+	— 副校长
+		vice-principal	1
+[:en]Testimonials[:zh]家长证言[:]
+	家长证言

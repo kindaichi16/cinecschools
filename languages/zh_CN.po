@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cinec_school_theme\n"
+"POT-Creation-Date: 2017-01-03 12:34-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mandy Fan <mandy.fan@mrpalace.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:27
+msgid "Sorry, but you are looking for something that does not exists."
+msgstr "很抱歉，您所搜索的东西不在这里。"
+
+#: footer.php:20 page-templates/page-contact.php:38
+#: page-templates/page-contact_luwan.php:38
+msgid "Address:"
+msgstr "校址:"
+
+#: footer.php:30 page-templates/page-contact.php:49
+#: page-templates/page-contact_luwan.php:49
+msgid "Tel:"
+msgstr "电话:"
+
+#: footer.php:34 page-templates/page-contact.php:55
+msgid "Fax:"
+msgstr "传真:"
+
+#: footer.php:43 header.php:59
+msgid "logo-cinec"
+msgstr "logo-cinec-c"
+
+#: functions.php:25
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: functions.php:28
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:31
+msgid "Left Side Menu"
+msgstr "Left Side Menu"
+
+#: functions.php:44
+msgid "Header-Language"
+msgstr "Header-Language"
+
+#: image.php:69 single-attachment.php:69 single-default.php:64
+#: single-default_with-attachment.php:75
+msgid "Previous Post: "
+msgstr "上一篇："
+
+#: image.php:70 single-attachment.php:70 single-default.php:65
+#: single-default_with-attachment.php:76
+msgid "Next Post: "
+msgstr "下一篇："
+
+#: image.php:119 page-templates/page-contact.php:119
+#: page-templates/page-contact_luwan.php:124 page-templates/page-gallery.php:39
+#: page.php:41 search.php:31 single-attachment.php:119 single-default.php:114
+#: single-default_with-attachment.php:125 single-staff.php:66
+msgid "Not Found"
+msgstr "搜索错误"
+
+#: image.php:122 page-templates/page-contact.php:122
+#: page-templates/page-contact_luwan.php:127 page-templates/page-gallery.php:42
+#: page.php:44 search.php:34 single-attachment.php:122 single-default.php:117
+#: single-default_with-attachment.php:128 single-staff.php:69
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "很抱歉，您所搜索的东西不在这里。"
+
+#: index.php:28 index.php:29 page-templates/page-home.php:28
+#: page-templates/page-home.php:29
+msgid "EVENT"
+msgstr "学生天地"
+
+#: index.php:65 index.php:67 index.php:69 page-templates/page-home.php:65
+#: page-templates/page-home.php:67 page-templates/page-home.php:69
+msgid "NEWSLETTER"
+msgstr "新闻简报"
+
+#: index.php:112 index.php:113 page-templates/page-home.php:117
+#: page-templates/page-home.php:118
+msgid "LATEST NEWS"
+msgstr "新闻动态"
+
+#: index.php:163 index.php:164 page-templates/page-home.php:168
+#: page-templates/page-home.php:169
+msgid "ANNOUNCEMENTS"
+msgstr "通知公告"
+
+#: index.php:205 index.php:206 page-templates/page-home.php:210
+#: page-templates/page-home.php:211
+msgid "TESTIMONIALS"
+msgstr "名人证言"
+
+#: list-news-events.php:4
+msgid "Latest News & Events:"
+msgstr "最新新闻动态:"
+
+#: page-templates/page-contact.php:61
+msgid "Email:"
+msgstr "电邮:"
+
+#: page-templates/page-contact_luwan.php:55
+msgid "Contact person:"
+msgstr "联系人:"
+
+#: scripts/attachments.php:9
+msgid "Title"
+msgstr "标题"
+
+#: scripts/attachments.php:15
+msgid "Caption"
+msgstr "说明"
+
+#: scripts/attachments.php:45
+msgid "Attach Files"
+msgstr "附加文件"
+
+#: scripts/attachments.php:48
+msgid "Attach"
+msgstr "附上"
+
+#: scripts/breadcrumbs.php:16
+msgid "Home"
+msgstr "首页"
+
+#: scripts/breadcrumbs.php:17
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr "搜索结果 \"%s\""
+
+#: scripts/breadcrumbs.php:18
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr "帖子标记 \"%s\""
+
+#: scripts/breadcrumbs.php:19
+#, php-format
+msgid "Articles Posted by %s"
+msgstr "文章发表于 %s"
+
+#: scripts/breadcrumbs.php:20
+msgid "Error 404"
+msgstr "错误404"
+
+#: scripts/breadcrumbs.php:162
+msgid "Page"
+msgstr "Page"
+
+#: searchform.php:5
+msgid "Search for:"
+msgstr "搜索:"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "搜索"
+
+#~ msgid "Previous Post:"
+#~ msgstr "上一篇："
+
+#~ msgid "Next Post:"
+#~ msgstr "下一篇："

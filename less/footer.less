@@ -1,0 +1,62 @@
+// footer.less
+
+footer { 
+	background-color: @footer-bg-color; 
+	color: @footer-color; 
+	a { 
+		color: @footer-color; 
+		&:hover { 
+			color: @footer-color; 
+		}
+	}
+}
+
+.footer-top { 
+	//padding: @line-height-computed 0 @font-size-h4 0; 
+	font-size: @font-size-small; 
+	font-weight: bold; 
+}
+
+.footer-copyright { 
+	background-color: @footer-bg-cr-color; 
+	font-size: @font-size-smaller; 
+	line-height: 1.3em;
+	p{
+		margin-top: 10px;
+	}
+}
+
+.cinec-logo-btm {
+	margin-top: 0px; 
+}
+
+address { 
+	font-size: @font-size-h6;
+	li {
+		list-style:none;
+	}
+}
+
+#menu-footermenu { 
+	padding:0;
+	margin: 25px 0 18px 0;
+	li {
+		border-left:1px @white solid;
+		//float: left;
+		display:inline-block; 
+		list-style-type:none;
+		padding:0 @font-size-smaller; 
+		
+		
+		&:first-child {
+			padding-left:0; 
+			border-left:0;
+		}
+	}
+	@media (max-width: @screen-xs-max) {
+		li {
+			padding:0 @font-size-small/3; 
+			border-left: 0; 
+		}
+	}
+}

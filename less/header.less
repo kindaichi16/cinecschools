@@ -1,0 +1,157 @@
+// header.less
+
+/*-------------------------------header+nav---------------------------------*/
+.top-header { 
+	background-color: @brand-primary; 
+	padding-top: 0px; 
+}
+
+//language
+.nav-language {
+	color: @black; 
+	font-size: 80%;
+	margin-right: -5px;
+	padding-top: 5px;
+	text-align: right;
+	@media (max-width: 360px) {
+		font-size: 100%; 
+		margin-top:5px;
+	}
+	a { 
+		color: @white; 
+	}
+	li {
+		list-style:none;
+	}
+}
+
+.qtranxf_language_chooser { 
+	list-style-type:none;
+	li { 
+		float:left; 
+		margin-right:5px;
+	}
+}
+.lang-en a {
+	border-right:1px @white solid;
+	padding-right:5px;
+}
+
+.nav-school-logo, .img-logo {
+	display: inline-block; 
+}
+
+.nav-school-name {
+	display: inline-block; 
+	margin-top: 10px; 
+	margin-left: 0; 
+	a { 
+		color: @white; 
+	}
+}
+
+.nav-school-name-e {
+	font-size: @font-size-h3; 
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-h4; 
+	}
+}
+.nav-school-name-c {
+	font-size: @font-size-h4; 
+	@media (max-width: @screen-xs-max) {
+		font-size: @font-size-small;
+	}
+}
+
+.cinec-logo {
+	margin-top: 10px; 
+}
+
+/* start navbar */
+.navbar-toggle { 
+	margin-right: 0px;
+}
+
+.navbar { 
+	background-color: @brand-primary; 
+	padding-top: 15px;
+	padding-bottom: 25px;	
+	margin-bottom: 0; 
+	border-radius: 0; 
+	border: 0; 
+	@media (max-width: @screen-xs-max) {
+		padding-top: 5px;
+		//padding-bottom: 15px;
+			
+	}
+}
+
+.navbar-default {
+	.navbar-nav {
+		margin: 10px 0;
+		& > li > a { 
+			color: @white; 
+			font-size: (@font-size-base * 1.05);
+			&:hover, &:focus { 
+				background-color: @menu-items-color-hover; 
+			}
+		}
+		
+		@media (max-width: @screen-xs-max) {
+			.open .dropdown-menu> li > a { 
+				color: @white;
+				&:hover, &:focus {
+					background-color: @menu-items-color-hover;
+				}
+			}
+			
+		}
+		
+		
+	}
+}
+
+.navbar-border { 
+	border-top: @dotted-border;
+	border-bottom: @dotted-border;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 15px;
+			
+	}
+}
+
+/* wp bootstrap navwalker */
+.nav-menu { 
+	margin-top: 150px;
+}
+
+
+
+/* search box */
+.navbar-form { 
+	margin: 18px 0 18px 0; 
+	padding:0;
+}
+.form-navsearch { 
+	border-radius: 0; 
+}
+.btn-nav-search { 
+	background-color: #cdcdcd; 
+	border-radius: 0; 
+}
+
+/*---------------------------------------mobile-------------------------------------------*/
+@media (max-width: 360px) {
+}
+
+/*xs*/
+@media (max-width: @screen-xs-max) {
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
